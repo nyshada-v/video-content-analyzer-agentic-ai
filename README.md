@@ -4,7 +4,7 @@
 1. [Project Overview](#project-overview)
 2. [Problem Statement](#problem-statement)
 3. [Solution Architecture](#solution-architecture)
-4. [Agentic AI Concepts Implemented](#agentic-ai-concepts)
+4. [Agentic AI Concepts Implemented](#agentic-ai-concepts-implemented)
 5. [System Components](#system-components)
 6. [Tech Stack](#tech-stack)
 7. [Setup Instructions](#setup-instructions)
@@ -36,9 +36,7 @@ People spend hours watching lengthy videos (lectures, meetings, tutorials, inter
 Our system employs a multi-agent architecture where specialized AI agents collaborate to process and analyze video content:
 
 ### High-Level Architecture
-```
-User → Gradio Interface → Orchestrator → Multiple Specialized Agents → Results
-```
+![Multi-Agent System Architecture](./images/architecture.png)
 
 ### Agent Workflow
 
@@ -211,6 +209,19 @@ User → Gradio Interface → Orchestrator → Multiple Specialized Agents → R
 - OpenAI API key or Google Gemini API key
 - AssemblyAI API key (free tier available)
 
-### Step 1: Clone Repository
-```bash
-git clone https://github.com/yourusername/
+## 🚀 Setup Instructions
+
+### Step 1: Open in Colab
+1. Open the notebook in Google Colab
+2. Run the installation cell to install all dependencies
+
+### Step 2: Set Up API Keys  
+1. Click the 🔑 (key) icon in Colab's left sidebar
+2. Add your secrets:
+   - `ASSEMBLYAI_API_KEY` = your_assemblyai_key_here
+   - `GEMINI_API_KEY` = your_gemini_key_here
+
+### Step 3: Run the Application
+1. Run all cells sequentially
+2. The Gradio interface will launch at the bottom
+3. Upload your video and start analyzing!
