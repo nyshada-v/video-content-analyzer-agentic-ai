@@ -281,7 +281,8 @@ Once processing completes, you can:
 
 ## Demo
 <a name="demo"></a>
-![Sorry. Could not process video](./demo/Video%20Content%20Analyzer_%20Unlocking%20Insights%20from%20Your%20Videos%20🎥.mp4)
+[loom link to demo!](https://www.loom.com/share/ee443116d178425091c74fb0b06a3ff9)
+![Download demo from here!](./demo/Video%20Content%20Analyzer_%20Unlocking%20Insights%20from%20Your%20Videos%20🎥.mp4)
 
 ## 🔮 Future Enhancements
 <a name="future-enhancements"></a>
