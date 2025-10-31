@@ -15,7 +15,7 @@
 ---
 
 ## 🎯 Project Overview
-
+<a name="project-overview"></a>
 The Video Content Analyzer is an intelligent multi-agent AI system that automatically processes video files to extract, analyze, and enable intelligent querying of video content. The system uses specialized AI agents working together to provide transcription, summarization, semantic search, and interactive Q&A capabilities.
 
 ---
